@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam - 01</title>
+    <link rel="stylesheet" href="exam01.css">
+</head>
+<body>
+    <!-- Sidebar --> 
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="file:///E:/Book%20game/raja/raja.html">রাজা রামমোহন রায়</a>
+        <a href="file:///E:/Book%20game/pyaricad/pyari.html">প্যারীচাঁদ মিত্র</a>
+        <a href="file:///E:/Book%20game/biddasagor/biddasagor.html">ঈশ্বরচন্দ্র বিদ্যাসাগর</a>
+        <a href="file:///E:/Book%20game/maicel/maicel.html">মাইকেল মধুসুদন দত্ত</a>
+        <a href="file:///E:/Book%20game/dinbondhu/dinbondhu.html">দীনবন্ধু মিত্র</a>
+        <a href="#">Exam - 01</a>
+        <!-- <a href="#">সঞ্জীবচন্দ্র চট্টোপাধ্যায়</a>
+        <a href="#">নওয়াব ফয়জুন্নেসা চৌধুরানী</a>
+        <a href="#">গিরিশচন্দ্র সেন</a>
+        <a href="#">বঙ্গিমচদ্র চট্টোপাধ্যায়</a>
+        <a href="#">কালিপ্রসন্ন সিংহ</a>
+        <a href="#">কালিপ্রসন্ন ঘোষ</a>
+        <a href="#">মীর মশাররফ হোসেন</a>
+        <a href="#">কায়কোবাদ</a>
+        <a href="#">রবিন্দ্রনাথ ঠাকুর</a> -->
+    </div>
+
+    <!-- Menu Button (Top Left) -->
+    <span class="openbtn" onclick="openSidebar()">&#9776; Menu</span>
+
+    <!-- Main Game Content -->
+    <div class="container">
+        <div class="title">রাজা রামমোহন রায়</div>
+        <div class="grid" id="grid"></div>
+        <div class="buttons">
+            <button class="reveal">REVEAL</button>
+            <button class="shuffle">SHUFFLE</button>
+            <button class="deselect">DESELECT</button>
+            <button class="submit">SUBMIT</button>
+        </div>
+    </div>
+
+    <script src="exam01.js"></script>
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+        
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+</body>
+</html>
